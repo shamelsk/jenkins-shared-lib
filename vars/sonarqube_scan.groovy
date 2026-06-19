@@ -1,10 +1,7 @@
 def call() {
-echo "Running SonarQube Analysis..."
+    echo "Running SonarQube Analysis..."
 
-```
-withSonarQubeEnv('sonarqube') {
-    sh 'mvn sonar:sonar'
-}
-```
-
+    withSonarQubeEnv('sonarqube') {
+        sh 'mvn sonar:sonar'
+    }
 }
