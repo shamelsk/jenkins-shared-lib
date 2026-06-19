@@ -1,3 +1,4 @@
+# For Maven Projects
 def call() {
     echo "Running SonarQube Analysis..."
 
