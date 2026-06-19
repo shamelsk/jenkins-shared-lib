@@ -22,6 +22,6 @@
 ### How to use it in Jenkins pipeline
 - Go to your declarative pipeline
 - Add **@Library('Shared') _** at the very first line of your jenkins pipeline.
-<img src="https://github.com/DevMadhup/Jenkins_SharedLib/blob/main/assests/shared-lib-in-pipeline.png" />
+<img src="https://github.com/shamelsk/jenkins-shared-lib/blob/main/assests/shared-lib-in-pipeline.png" />
 
 **Note:** @Library() _ is the syntax to use shared library.
